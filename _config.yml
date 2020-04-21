@@ -1,11 +1,11 @@
 # Site settings
 author: Vedran Sehovic
-title: 
+title: My Coding Journey
 header-img: img/home-bg.png
 email: vedran.sehovic@gmail.com
 copyright_name: Vedran Sehovic
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Citius, Altius, Fortius
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  vedransehovic
