@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scratching the Surface With Sinatra"
-date:       2020-07-25 17:37:45 +0000
+date:       2020-07-25 13:37:46 -0400
 permalink:  scratching_the_surface_with_sinatra
 ---
 
@@ -24,4 +24,4 @@ Going back to the hard parts of the project it was interesting how I was able to
 
 Last issue I had was with stateless(ness) of HTTP protocol. I built a helper method that checks if the user is logged in and redirects you to Login page if it is not. Problem was I wanted to redirect users to login page with the custom message and that didn't work through setting a variable. I've learned that there is a custom gem that does that but before I learned about that I've tried setting a message into a session, similarly as we're setting user ID when we're logging in users. That worked just fine and only thing I had to worry about is to reset the value once the message was displayed to avoid repeating it or displaying it out of place. 
 
-In all it was a very interesting project. I learned a lot about Sinatra but also I've learned ab
+In all it was a very interesting project. I learned a lot about Sinatra but also I've learned about new technologies I can't wait to try. I realized how Sinatra is so barely scratching a surface of things that are out there and now I'm eager to pass this exam and start learning again! Excellent!
